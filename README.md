@@ -187,11 +187,11 @@ Term 2
 : Definition 2a
 : Definition 2b
 ```
+Result:  
 
-## Best Practices
+Term 1
+: Definition 1
 
-1. **Consistent spacing**: Use consistent spacing around headers and between sections
-2. **Preview your work**: Always preview your Markdown to ensure it renders correctly
-3. **Keep it simple**: Markdown's strength is in its simplicity
-4. **Use blank lines**: Separate different elements with blank lines for better readability
-5. **Test links**: Always verify that your links work correctly
+Term 2
+: Definition 2a
+: Definition 2b
