@@ -189,9 +189,9 @@ Term 2
 ```
 Result:  
 
-Term 1
+Term 1  
 : Definition 1
 
-Term 2
-: Definition 2a
+Term 2  
+: Definition 2a  
 : Definition 2b
