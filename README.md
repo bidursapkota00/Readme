@@ -8,10 +8,15 @@ Use hash symbols (#) to create headers. The number of hashes determines the head
 
 ```markdown
 # Header 1 (Largest)
+
 ## Header 2
+
 ### Header 3
+
 #### Header 4
+
 ##### Header 5
+
 ###### Header 6 (Smallest)
 ```
 
@@ -20,8 +25,8 @@ Use hash symbols (#) to create headers. The number of hashes determines the head
 ### Bold and Italic
 
 - **Bold text**: Use double asterisks `**bold**` or double underscores `__bold__`
-- *Italic text*: Use single asterisks `*italic*` or single underscores `_italic_`
-- ***Bold and italic***: Use triple asterisks `***bold italic***`
+- _Italic text_: Use single asterisks `*italic*` or single underscores `_italic_`
+- **_Bold and italic_**: Use triple asterisks `***bold italic***`
 
 ### Strikethrough
 
@@ -31,7 +36,7 @@ Use hash symbols (#) to create headers. The number of hashes determines the head
 
 ### Unordered Lists
 
-Use dashes (-), asterisks (*), or plus signs (+):
+Use dashes (-), asterisks (\*), or plus signs (+):
 
 ```markdown
 - Item 1
@@ -107,6 +112,7 @@ Use the greater than symbol (>) for blockquotes:
 ```
 
 Result:
+
 > This is a blockquote.
 > It can span multiple lines.
 >
@@ -116,36 +122,48 @@ Result:
 
 Create tables using pipes (|) and dashes (-):
 
-```markdown
-| Header 1 | Header 2 | Header 3 |
-|----------|----------|----------|
-| Cell 1   | Cell 2   | Cell 3   |
-| Cell 4   | Cell 5   | Cell 6   |
+```text
+| Header 1 | Header 2 |
+| -------- | -------- |
+| Cell 1   | Cell 2   |
+| Cell 4   | Cell 5   |
 ```
 
 ### Table Alignment
 
 Use colons (:) to align columns:
 
-```markdown
-| Left-aligned | Center-aligned | Right-aligned |
-|:-------------|:--------------:|--------------:|
-| Left         | Center         | Right         |
+```text
+| Left-aligned |
+| :----------- |
+| Left         |
+```
+
+```text
+| Center-aligned |
+| :------------: |
+|     Center     |
+```
+
+```text
+| Right-aligned |
+| ------------: |
+|         Right |
 ```
 
 ## Horizontal Rules
 
 Create horizontal lines using three or more dashes, asterisks, or underscores:
 
-```markdown
+```text
+
 ---
-***
-___
+
 ```
 
 ## Line Breaks
 
-- Single line break: End a line with two spaces  
+- Single line break: End a line with two spaces
 - Paragraph break: Leave a blank line between paragraphs
 
 ## Escape Characters
@@ -177,6 +195,12 @@ This creates a line break.
 - [ ] Another incomplete task
 ```
 
+Result:
+
+- [x] Completed task
+- [ ] Incomplete task
+- [ ] Another incomplete task
+
 ### Definition Lists
 
 ```markdown
@@ -187,7 +211,8 @@ Term 2
 : Definition 2a
 : Definition 2b
 ```
-Result:  
+
+Result:
 
 Term 1  
 : Definition 1
