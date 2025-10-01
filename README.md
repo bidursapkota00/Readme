@@ -405,13 +405,13 @@ _Italic text_
 Use backslash (`\`) to escape special characters:
 
 ```markdown
-\_This will not be italic\_
+\_This will not be italic\_  
 \# This will not be a header
 ```
 
 #### Output:
 
-\_This will not be italic\_
+\_This will not be italic\_  
 \# This will not be a header
 
 ---
@@ -425,14 +425,14 @@ Use backslash (`\`) to escape special characters:
 You can use HTML tags within Markdown when needed:
 
 ```markdown
-This is <mark>highlighted text</mark>.
+This is <mark>highlighted text</mark>.  
 <br> This creates a line break.
 ```
 
 #### Output:
 
-This is <mark>highlighted text</mark>.
-<br> This creates a line break.
+This is <mark>highlighted text</mark>.  
+<br>This creates a line break.
 
 ---
 
@@ -443,9 +443,9 @@ This is <mark>highlighted text</mark>.
 ## Creating Table of Content
 
 - Every heading text is converted to in-page navigation link using following rules
-  > all heading text is converted to lowercase letters
-  > remove all special characters
-  > replace space by hyphen (`-`)
+  > - all heading text is converted to lowercase letters
+  > - remove all special characters
+  > - replace space by hyphen (`-`)
 
 ```markdown
 ## Table of content
