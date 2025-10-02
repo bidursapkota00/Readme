@@ -1,5 +1,7 @@
 # Markdown Syntax Guide
 
+![Bidur Sapkota](https://www.bidursapkota.com.np/_next/image?url=%2Fimages%2Fprofile3.png&w=48&q=75)&nbsp;[**Bidur Sapkota**](https://www.bidursapkota.com.np/)
+
 Markdown is a lightweight markup language that allows you to format text using simple syntax. This guide covers the essential Markdown elements you'll use most frequently.
 
 ## Table of content
