@@ -159,12 +159,12 @@ Create links using square brackets for text and parentheses for URL:
 
 <!-- Example -->
 
-[Github Link](https://github.com/bidursapkota00)
+[Portfolio Link](https://www.bidursapkota.com.np/)
 ```
 
 #### Output:
 
-[Github Link](https://github.com/bidursapkota00)
+[Portfolio Link](https://www.bidursapkota.com.np/)
 
 ---
 
@@ -178,12 +178,12 @@ Similar to links but with an exclamation mark at the beginning:
 
 <!-- Example -->
 
-![Profile Picture](https://www.bidursapkota.com.np/_next/image?url=%2Fimages%2Fprofile3.png&w=256&q=75)
+![Profile Picture](/profile.png)
 ```
 
 #### Output:
 
-![Profile Picture](https://www.bidursapkota.com.np/_next/image?url=%2Fimages%2Fprofile3.png&w=256&q=75)
+![Profile Picture](/profile.png)
 
 ---
 
