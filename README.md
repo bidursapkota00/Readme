@@ -1,10 +1,10 @@
 # Markdown Syntax Guide
 
-![Bidur Sapkota](https://www.bidursapkota.com.np/_next/image?url=%2Fimages%2Fprofile3.png&w=48&q=75 "Bidur Sapkota - Developer")&nbsp;[Bidur Sapkota](https://www.bidursapkota.com.np/)
+![Bidur Sapkota](https://www.bidursapkota.com.np/images/gravatar.webp "Bidur Sapkota - Developer")&nbsp;[Bidur Sapkota](https://www.bidursapkota.com.np/)
 
 Markdown is a lightweight markup language that allows you to format text using simple syntax. This guide covers the essential Markdown elements you'll use most frequently.
 
-![Markdown Syntax Guide by Bidur Sapkota](/1-markdown-post.jpg "Markdown Syntax Complete Guide - Blog by Bidur Sapkota")
+![Markdown Syntax Guide by Bidur Sapkota](/1-markdown-post-1200.webp "Markdown Syntax Complete Guide - Blog by Bidur Sapkota")
 
 ## Table of content
 
@@ -180,12 +180,12 @@ Similar to links but with an exclamation mark at the beginning:
 
 <!-- Example -->
 
-![Profile Picture](/profile.png)
+![Profile Picture](/profile.webp)
 ```
 
 #### Output:
 
-![Profile Picture](/profile.png)
+![Profile Picture](/profile.webp)
 
 ---
 
